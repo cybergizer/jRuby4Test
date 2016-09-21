@@ -8,7 +8,7 @@ public class Bowling {
 	}
 	
 	public void hit(int score) {
-		this.score += score * 2;
+		this.score += score;
 	}
 	
 	public int getScore() {

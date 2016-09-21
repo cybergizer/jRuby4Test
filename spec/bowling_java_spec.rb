@@ -1,3 +1,5 @@
+puts Kernel.system('javac bowling/Bowling.java')
+
 require 'java'
 java_import 'bowling.Bowling'
 

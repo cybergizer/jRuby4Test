@@ -6,6 +6,6 @@ class BowlingRuby
   end
 
   def hit(pin_count)
-    @score+=pin_count
+    @score += pin_count
   end
 end

@@ -1,7 +1,9 @@
-require 'bowling_ruby'
+RSpec.describe 'BowlingRuby', '#score' do
+  before do
+    require 'bowling_ruby'
+  end
 
-RSpec.describe BowlingRuby, '#score' do
-  it "roll" do
+  it do
     bowling = BowlingRuby.new
     20.times{bowling.hit(4)}
     expect(bowling.score).to eq 80

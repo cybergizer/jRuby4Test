@@ -1,11 +1,9 @@
-puts Kernel.system('javac bowling/Bowling.java')
+puts Kernel.system('javac bowling/BowlingJava.java')
+java_import 'bowling.BowlingJava'
 
-require 'java'
-java_import 'bowling.Bowling'
-
-RSpec.describe Bowling, '#score' do
+RSpec.describe BowlingJava, '#score' do
   it "roll" do
-    bowling = Bowling.new
+    bowling = BowlingJava.new
     20.times{bowling.hit(4)}
     expect(bowling.score).to eq 80
   end

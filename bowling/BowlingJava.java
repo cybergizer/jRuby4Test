@@ -1,9 +1,9 @@
 package bowling;
 
-public class Bowling {
+public class BowlingJava {
 	private int score;
 
-	public Bowling() {
+	public BowlingJava() {
 		this.score = 0;
 	}
 

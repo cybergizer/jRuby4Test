@@ -1,4 +1,4 @@
-class Bowling
+class BowlingRuby
   attr_reader :score
 
   def initialize
